@@ -6,7 +6,6 @@ import random as rnd
 # visualization
 import seaborn as sns
 import matplotlib.pyplot as plt
-%matplotlib inline
 
 # machine learning
 from sklearn.linear_model import LogisticRegression
