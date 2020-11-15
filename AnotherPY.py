@@ -1,4 +1,4 @@
-# input_data_2 analysis and wrangling
+# data analysis and wrangling
 
 # visualization
 
