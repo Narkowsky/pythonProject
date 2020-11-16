@@ -1,7 +1,7 @@
-# Import kaggle API module and get titanic competition input_data
+# Import kaggle API module and get titanic competition data
 from pathlib import Path
 
-# input_data analysis and wrangling
+# data analysis and wrangling
 import pandas as pd
 import numpy as np
 import random as rnd
@@ -21,8 +21,8 @@ from sklearn.linear_model import SGDClassifier
 from sklearn.tree import DecisionTreeClassifier
 
 # %%
-train_df = pd.read_csv(Path().joinpath('input_data', 'train.csv'))
-test_df = pd.read_csv(Path().joinpath('input_data', 'test.csv'))
+train_df = pd.read_csv(Path().joinpath('data', 'train.csv'))
+test_df = pd.read_csv(Path().joinpath('data', 'test.csv'))
 combined_df = [train_df, test_df]
 
 # Exploratory analysis
